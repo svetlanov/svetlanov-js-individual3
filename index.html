@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Add Transaction</h2>
+    <form id="transactionForm">
+        <input type="number" id="id" placeholder="ID" required min="1">
+        <input type="datetime-local" id="date" placeholder="Date" required>
+        <input type="number" id="amount" placeholder="Amount" required>
+        <select id="category" required>
+            <option value="">Select Category</option>
+            <option value="Food">Food</option>
+            <option value="Transport">Transport</option>
+            <option value="Utilities">Utilities</option>
+        </select>
+        <input type="text" id="description" placeholder="Description" required>
+        <button type="button" onclick="tryAddTransaction()">Add Transaction</button>
+    </form>
+
+    <h2>Transaction Table</h2>
+    <p>Total Amount: <span id="totalAmount">0</span></p>
+    <table id="transactionTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Date</th>
+                <th>Amount</th>
+                <th>Category</th>
+                <th>Description</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Transactions will be added here -->
+        </tbody>
+    </table>
+
+    <h3>Detailed Description:</h3>
+    <div id="transactionDetails"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
