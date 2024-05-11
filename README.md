@@ -90,6 +90,20 @@ formatDate(new Date());
 getShortDescription("Long description example for testing.");
 ```
 
+### Добавление транзакции
+<img width="1468" alt="Снимок экрана 2024-05-11 в 14 16 48" src="https://github.com/svetlanov/svetlanov-js-individual3/assets/166555611/6e312e7a-1e54-45cb-a23f-65ee5e39dd1f">
+<img width="1464" alt="Снимок экрана 2024-05-11 в 14 17 04" src="https://github.com/svetlanov/svetlanov-js-individual3/assets/166555611/d300c652-d9ba-4dca-ae89-0a8c5ef99509">
+
+### Валидация транзакций
+<img width="1468" alt="Снимок экрана 2024-05-11 в 14 17 47" src="https://github.com/svetlanov/svetlanov-js-individual3/assets/166555611/9f0fc103-54fb-4af6-9896-118e13d0a084">
+
+### Удаление транзакции
+**До удаления:**
+<img width="1465" alt="Снимок экрана 2024-05-11 в 14 18 24" src="https://github.com/svetlanov/svetlanov-js-individual3/assets/166555611/8f03b00a-98b7-41d0-aede-d510be5a1f69">
+**После нажатия кнопки Delete:**
+<img width="1465" alt="Снимок экрана 2024-05-11 в 14 18 36" src="https://github.com/svetlanov/svetlanov-js-individual3/assets/166555611/bbc03222-bac9-4280-9c72-9ad5d07a1307">
+
+
 
 ## Контрольные вопросы
 
